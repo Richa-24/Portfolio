@@ -49,7 +49,7 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
   line-height: -webkit-calc(30 / 18);
   line-height: -moz-calc(30 / 18);
   line-height: calc(30 / 18);
@@ -422,7 +422,7 @@ input[type='submit'], button[type='button'] {
 }
 
 .m-b-25 {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .m-t-25 {
@@ -3685,13 +3685,13 @@ ul.list-reset {
 }
 
 .section-intro .intro-name {
-  font-size: 60px;
+  font-size: 58px;
   font-family: "Poppins", sans-serif;
   color: #333333;
   font-weight: 700;
   margin-bottom: 30px;
   overflow: hidden;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .section-intro .intro-text {
