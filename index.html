@@ -380,12 +380,12 @@
 
                     <div class="col-lg-3 col-sm-6 wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.4s">
                         <article class="card-primary card-project">
-                            <a class="card-link-overlay" href="#" data-toggle="modal" data-target="#project-post"></a>
+                            <a class="card-link-overlay" href="#" data-toggle="modal" data-target="#BoltEdge"></a>
                             <figure class="card-figure">
-                                <img class="project-image img-fluid" src="images/project-02.jpg" alt="Project" />
+                                <img class="project-image img-fluid" src="images/boltEdge1_864x864.png" alt="Project" />
                             </figure>
                             <header class="card-header font15">
-                                <h3 class="project-title">Project</h3>
+                                <h3 class="project-title">BoltEdge</h3>
                                 <ul class="project-subjects">
                                     <li>
                                         <a href="#">VIEW DETAILS</a>
@@ -626,6 +626,112 @@
     <!-- end footer-->
 
     <!-- section project post-->
+
+    <!--BoltEdge-->
+
+    <section class="section-project-post modal fade js-modal" id="BoltEdge" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="loader"></div>
+            <div class="modal-content">
+                <div class="section-inner modal-primary">
+                    <div class="container-fluid">
+                        <div class="modal-header">
+                            <div class="modal-header-logo">
+                            </div>
+                            <div class="modal-header-control">
+                                <button class="btn-prev au-btn au-btn-circle" type="button">
+                                    <i class="lnr lnr-chevron-left"></i>
+                                </button>
+                                <button class="btn-next au-btn au-btn-circle" type="button">
+                                    <i class="lnr lnr-chevron-right"></i>
+                                </button>
+                                <button class="btn-close au-btn au-btn-circle" type="button" data-dismiss="modal"
+                                    aria-label="Close">
+                                    <i class="lnr lnr-cross"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-11 col-lg-9">
+                                <div class="modal-body">
+                                    <article class="post-project m-b-55">
+                                        <header class="post-header">
+                                            <h3 class="post-title">BoltEdge</h3>
+                                        </header>
+                                        <div class="row no-gutters">
+                                            <div class="col col-figure">
+                                                <figure class="post-image">
+                                                    <div class="js-slick slick-arrow-style-2" data-slick-lg="1"
+                                                        data-slick-dots="true" data-slick-arrows="true"
+                                                        data-slick-prevarrow="&lt;i class='arrow arrow-prev lnr lnr-chevron-left'&gt;&lt;/i&gt;"
+                                                        data-slick-nextarrow="&lt;i class='arrow arrow-next lnr lnr-chevron-right'&gt;&lt;/i&gt;"
+                                                        data-slick-dotsclass="slick-dots-2">
+                                                        <div class="project-image-item">
+                                                            <img class="img-fluid" src="images/boltEdge2_1_680x511.png"
+                                                                alt="Featured Details">
+                                                        </div>
+                                                        <div class="project-image-item">
+                                                            <img class="img-fluid" src="images/boltEdge3_680x511.png"
+                                                                alt="Featured Details">
+                                                        </div>
+                                                        <div class="project-image-item">
+                                                            <img class="img-fluid" src="images/boltEdge4_680x511.png"
+                                                                alt="Featured Details">
+                                                        </div>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            <div class="col col-aside">
+                                                <aside class="project-aside">
+                                                    <div class="project-aside-inner">
+                                                        <div class="project-aside-block m-b-30">
+                                                            <h4 class="project-aside-title m-b-15">PROJECT DESCRIPTION
+                                                            </h4>
+                                                            <p class="project-aside-paragraph">Created this industrial
+                                                                project for the company Nutnbolt where we were providing
+                                                                competitors for a small and large scale restaurants so
+                                                                that they can see their competition.</p>
+                                                        </div>
+                                                        <div class="project-aside-block m-b-45">
+                                                            <h4 class="project-aside-title m-b-20">TECHNOLOGY
+                                                            </h4>
+                                                            <ul class="project-aside-list">
+                                                                <li>
+                                                                    <span class="t-left">Live Demo:</span>
+                                                                    <a class="t-right"
+                                                                        href="http://15.206.81.222/">Click</a>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="t-left">Github:</span>
+                                                                    <a class="t-right"
+                                                                        href="https://github.com/keshavmahawar/BoltEdge">Click</a>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="t-left">Technology:</span>
+                                                                    <span class="t-right cate-link">
+                                                                        <a href="#">mongoDB, express, react, nodejs
+                                                                        </a>
+
+                                                                    </span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </aside>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Schomato-->
 
@@ -1072,21 +1178,6 @@
 
     <!-- Main JS-->
     <script src="js/global.js"></script>
-
-    <!--Github stats-->
-    <!-- <script>
-        GitHubCalendar(".calendar", "Richa-24");
-
-        // or enable responsive functionality:
-        GitHubCalendar(".calendar", "Richa-24", { responsive: true });
-
-        // Use a proxy
-        GitHubCalendar(".calendar", "Richa-24", {
-            proxy(username) {
-                return fetch(`https://your-proxy.com/github?user=${username}`);
-            },
-        }).then((r) => r.text());
-    </script> -->
 
 </body>
 
